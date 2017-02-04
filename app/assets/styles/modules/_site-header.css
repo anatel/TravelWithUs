@@ -75,7 +75,7 @@
 			transition: transform .3s ease-out;
 		}
 
-		@mixin atMedium {
+		@mixin atMedium {			
 			display: none;
 		}
 	}
@@ -97,7 +97,12 @@
 	}
 
 	@mixin atMedium {
+		position: fixed;
 		background-color: rgba($mainBlue, .3);
+
+		&--dark {
+			background-color: rgba(23, 51, 72, .85);
+		}
 	}
 
 	&__btn-container {
@@ -114,10 +119,16 @@
 		left: 50%;
 		transform: translateX(-50%) scale(.8);
 		transform-origin: 50% 0;
+		transition: transform 0.3s ease-out;
 
 		@mixin atMedium {
 			left: auto;
 			transform: translateX(0);
+
+			/*target the logo only when the dark header is being used*/
+			.site-header--dark & { 
+				transform: scale(.564);
+			}
 		}
 	}
 

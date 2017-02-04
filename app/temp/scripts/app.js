@@ -62,10 +62,13 @@
 
 	var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
 
+<<<<<<< HEAD
 	var _Modal = __webpack_require__(7);
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
+=======
+>>>>>>> sticky-header
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var mobileMenu = new _MobileMenu2.default();
@@ -11635,6 +11638,7 @@
 
 
 
+<<<<<<< HEAD
 /***/ },
 /* 7 */
 /***/ function(module, exports) {
@@ -11653,5 +11657,7 @@
 
 	exports.default = Modal;
 
+=======
+>>>>>>> sticky-header
 /***/ }
 /******/ ]);
