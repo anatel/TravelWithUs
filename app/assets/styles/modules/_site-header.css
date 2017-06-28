@@ -127,7 +127,7 @@
 
 			/*target the logo only when the dark header is being used*/
 			.site-header--dark & { 
-				transform: scale(.564);
+				transform: scale(.557);
 			}
 		}
 	}
